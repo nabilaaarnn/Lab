@@ -72,3 +72,5 @@ def show_json_by_id(request,id):
 def show_wishlist_ajax(request):
     context = {}
     return render(request, "wishlist_ajax.html", context)
+
+
